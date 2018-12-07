@@ -3,20 +3,110 @@
   <head>
     <meta charset="utf-8">
     <title>Jumpstart</title>
+
+    <!--CSS - reset-->
     <link href="./css/reset.css" type="text/css" rel="stylesheet">
+
+    <!--Bootstrap to CDN-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--CSS for Slick to CDN-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!--CSS-->
     <link href="./css/stylesheet.css" type="text/css" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="./favicon.png" type="image/x-icon">
 
-<link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
+    <!--Code for mobile-not totally sure about this-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--favicon-->
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
 
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
 
-    </head>
+  </head>
 
-    <body>
+  <body>
+
+<!-- Navigation -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#explore">Explore</a></li>
+          <li><a href="#">Start a project</a></li>
+          <li><a href="#">About us</li>
+        </ul>
+          <img class="navbar-brand navbar-right collapse navbar-collapse" src="./resources/images/logo.png">
+        </div>
+      </nav>
+
+<!-- jumbotron -->
+<div class="jumbotron jumbotron-bike">
+  <div class="container-fluid">
+  <h1>GET GOING</h1>
+  <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+
+<div class="relative-wrapper">
+  <a class="btn btn-primary btn-large">
+    Jump in</a>
+</div>
+
+
+  </div>
+</div>
+
+<div class="jumbotron jumbotron-beer">
+  <div class="container-fluid">
+  <h1>GET THINKING</h1>
+  <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+  </div>
+</div>
+
+<!-- Featured Project -->
+
+
+<div class="featured-project">
+  <h2>Featured Project</h2>
+<div class="row">
+  <div class="image-container">
+      <div class="col-md-6 col-xs-12">
+<img src="./resources/images/featured-project.png">
+      </div>
+      </div>
+
+  <div class="col-md-3 col-xs-6">
+      <h3>DeFrost: A Documentary</h3>
+        <div class="author">by Leo De Firenze</div>
+        <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</p>
+   </div>
+
+   <div class="col-md-3 col-xs-6">
+     <h3 class="blue-small-header">Product Categories</h3>
+     <ul class="product-categories">
+       <li>Art</li>
+       <li>Books</li>
+       <li>Crystals</li>
+       <li>Design</li>
+       <li>Doodles</li>
+       <li>Deedlybobs</li>
+       <li>Farming</li>
+       <li>Gadgets</li>
+       <li>Hoverboards</li>
+       <li>Jams, Jellies, Etc.</li>
+       <li>Magazines</li>
+       <li>Plants</li>
+       <li>Snakes & Snake Equipment</li>
+       <li>Tables</li>
+       <li>Ventriliquist Figures</li>
+       <li>Yoyos</li>
+     </ul>
+   </div>
+
+
+
+  </div>
+</div>
 
 
 
@@ -27,13 +117,15 @@
 
 
 
+    <!--Jquery link to CDN using Google-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
-
-
-
-
-
+    <!--Link to js for Slick-->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--Link to my js document-->
+    <script src="./resources/js/main.js"></script>
+
+
     </body>
     </html>
